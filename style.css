@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+/* Rules */
+
+/* Class selector section */
+/* We reuse classes not ID */
+/* ID selector section */
+/* Only ever have 1 ID element, shouldnt use ID on more than one */
+
+/* Main Page Heading */
+body {
+    background-image: url("./images/background.jpeg");
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+nav {
+    flex: 1;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+nav ul {
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+nav ul li a:hover{
+    color: plum;
+}
+
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.font {
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.intro_font {
+    color: white;
+    font-size: 25px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.img_float {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border: solid white 10px;
+    padding: 2px;
+}
+
+.trop-subtopic:hover {
+    color: greenyellow;
+}
+
+.polar-subtopic:hover {
+    color: grey;
+}
+
+.sav-subtopic:hover {
+    color: burlywood;
+}
+
+.text_box {
+    width: 1200px;
+    height: 400px;
+    position: relative;
+}
+
+.text_box p {
+    margin: 0;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+.about_box {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.text_box header {
+    text-align: center;
+}
+
+.size {
+    width: 1000px;
+    height: 500px;
+}
+
+#large {
+    padding-top: 200px;
+    width: 1000px;
+    height: 500px;
+}
+
+#trop:hover {
+    color: greenyellow;
+}
+
+#polar:hover {
+    color: grey;
+}
+
+#savannah:hover {
+    color: burlywood;
+}
